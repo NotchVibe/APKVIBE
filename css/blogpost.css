@@ -1,0 +1,167 @@
+.navigation {
+    background-color: black;
+    margin: 0px;
+    height: 9vh;
+}
+
+.logo {
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.navigation ul li a {
+    color: white;
+}
+
+.nav-right {
+    margin-right: 40px;
+}
+
+.content {
+    height: 235px;
+    display: flex;
+}
+
+.content-right img {
+    margin-left: 370px;
+    height: 197px;
+    padding-bottom: 2px;
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-direction: column;
+}
+
+.blog-post-content h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.blog-post-content img {
+    margin: auto;
+    display: block;
+    padding-bottom: 60px;
+    height: 140px;
+}
+
+.home-articles {
+    margin-top: 0;
+    padding: 0;
+}
+
+.home-article img {
+    width: 20vw;
+}
+
+.home-article-content h3 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.home-article-content span {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: var(--font2);
+}
+
+.blog-post-content {
+    /* background-color: red; */
+}
+
+.blog-post-content h5 {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Bree Serif';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.blog-post-content p {
+    color: rgb(49, 49, 49);
+}
+
+.blog-post-content .h1 {
+    font-size: 33px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.blog-post-content span {
+    text-decoration: underline;
+    text-decoration-color: indigo;
+    font-size: 17px;
+}
+
+.row {
+    display: flex;
+    margin: 25px 0;
+}
+
+.more-post {
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogpost-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info {
+    margin: 6px 5px;
+}
+
+.social {
+    display: flex;
+    height: 30px;
+}
+
+.social img {
+    height: 3vh;
+    width: 1.5vw;
+    padding: 1px;
+    margin: 0px 7px;
+}
+
+.social img:hover {
+    height: 3.5vh;
+    width: 1.8vw;
+    cursor: pointer;
+}
+
+.author-info div {
+    color: rgb(46, 46, 46);
+    padding: 1px 0px;
+    font-family: var(--font1);
+}
+
+.btn-home {
+    height: 11vh;
+    margin-left: 47%;
+}
+
+.more {
+    padding: 5px 24px;
+    background: rgb(255 62 62);
+    color: rgb(255, 255, 255);
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    transition: all 0.7s ease-in-out 0s;
+}
+
+.more:hover {
+    color: rgb(255, 255, 255);
+    background-color: red;
+}

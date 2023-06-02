@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+:root {
+    --main-bg-color: #ff4700;
+    --font1: 'Fjalla One', sans-serif;
+    --font2: 'Bree Serif', serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.center{
+    text-align: center;
+}
+
+.max-width-1 {
+    max-width: 85vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin-top: 2%;
+    margin-left: 28%;
+}
+
+.my-2 {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.btn {
+    color: white;
+    background-color: white;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 2px 19px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--main-bg-color);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.form-input {
+    margin: 0px 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    padding: 3px 6px;
+}
+
+.form-box input, textarea {
+    padding: 5px 8px;
+    margin: 9px;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+    width: 44vw;
+    color: black;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+}
